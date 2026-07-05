@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <title>Документация C# библиотек</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- Тема оформления (можно менять) -->
+  <!-- Приятная чистая тема оформления -->
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
 </head>
 <body>
@@ -12,11 +12,24 @@
   <script>
     window.$docsify = {
       name: 'Моя C# Вики',
-      repo: 'https://github.com/SaegoX/SaegoX.github.io',
-      loadSidebar: true // Включает боковое меню
+      repo: '', 
+      loadSidebar: true,    // Принудительно включаем боковое меню
+      alias: {
+        '/.*/_sidebar.md': '/_sidebar.md' // Помогает Docsify всегда находить меню
+      },
+      // Настройки встроенного поиска
+      search: {
+        maxAge: 86400000, // Время кеширования в мс (1 день)
+        paths: 'auto',
+        placeholder: 'Поиск...',
+        noData: 'Ничего не найдено!',
+        depth: 6 // Глубина заголовков для поиска
+      }
     }
   </script>
   <!-- Сам движок Docsify -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <!-- Плагин для работы поиска -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script>
 </body>
 </html>
