@@ -1,3 +1,4 @@
 - [Главная](README.md)
-- [Библиотека 1](library1.md)
-- [Библиотека 2](library2.md)
+- **Консольное приложение**
+  - [Точка входа (Program.cs)](program.md)
+  - [Модели данных (Models)](models.md)
