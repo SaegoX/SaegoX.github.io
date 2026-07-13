@@ -10,19 +10,19 @@
 
 ### 1. ExamModel (Экзамен)
 * [🔗 Исходный код ExamModel.cs](Practice.ConsoleApp/Models/ExamModel.cs)
-**Описание:**
+**Модель экзамена, содержит название предмета**
 
 ### 2. GroupModel (Учебная группа)
 * [🔗 Исходный код GroupModel.cs](Practice.ConsoleApp/Models/GroupModel.cs)
-**Описание:**
+**Модель учебных групп, содержит ID и наименование**
 
 ### 3. PrepModel (Преподаватель)
 * [🔗 Исходный код PrepModel.cs](Practice.ConsoleApp/Models/PrepModel.cs)
-**Описание:**
+**Модель ФИО преподавателя**
 
 ### 4. RaspModel (Расписание)
 * [🔗 Исходный код RaspModel.cs](Practice.ConsoleApp/Models/RaspModel.cs)
-**Описание:**
+**Модель расписания, показывает время того или иного экзамена**
 
 ### 5. SubjectModel (Данные экзамена)
 * [🔗 Исходный код SubjectModel.cs](Practice.ConsoleApp/Models/SubjectModel.cs)
