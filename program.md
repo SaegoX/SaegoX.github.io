@@ -21,7 +21,7 @@ namespace Practice.ConsoleApp
     {
         static void Main(string[] args)
         {
-            // Логика запуска приложения
+            // .............
         }
     }
 }
