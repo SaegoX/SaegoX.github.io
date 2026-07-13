@@ -8,13 +8,13 @@
 
 ## Список моделей проекта
 
-### 1. ExamModel (Экзамен)
+### 1. ExamModel (МодельЭкзамен)
 * [🔗 Исходный код ExamModel.cs](Practice.ConsoleApp/Models/ExamModel.cs)
-**Модель экзамена, содержит название предмета**
+**Модель экзамена, содержит Id, время, группу, преподавателя, здание, аудиторию**
 
 ### 2. GroupModel (Учебная группа)
 * [🔗 Исходный код GroupModel.cs](Practice.ConsoleApp/Models/GroupModel.cs)
-**Модель учебных групп, содержит ID и наименование**
+**Модель учебных групп, содержит Id и наименование**
 
 ### 3. PrepModel (Преподаватель)
 * [🔗 Исходный код PrepModel.cs](Practice.ConsoleApp/Models/PrepModel.cs)
@@ -24,6 +24,6 @@
 * [🔗 Исходный код RaspModel.cs](Practice.ConsoleApp/Models/RaspModel.cs)
 **Модель расписания, показывает время того или иного экзамена**
 
-### 5. SubjectModel (Данные экзамена)
+### 5. SubjectModel (Модель Субъекта)
 * [🔗 Исходный код SubjectModel.cs](Practice.ConsoleApp/Models/SubjectModel.cs)
-**Описание:**
+**Модель для сериализации данных напрямую из XML файла**
