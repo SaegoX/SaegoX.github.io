@@ -7,8 +7,4 @@
 		<Nullable>disable</Nullable>
 	</PropertyGroup>
 
-	<ItemGroup>
-	  <ProjectReference Include="..\..\..\_LIBS\Ans.Net10.Common\Ans.Net10.Common.csproj" />
-	</ItemGroup>
-
 </Project>

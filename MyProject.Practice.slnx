@@ -1,6 +1,3 @@
 <Solution>
-  <Folder Name="/^LIBS/">
-    <Project Path="../../_LIBS/Ans.Net10.Common/Ans.Net10.Common.csproj" />
-  </Folder>
   <Project Path="Practice.ConsoleApp/Practice.ConsoleApp.csproj" />
 </Solution>
