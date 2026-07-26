@@ -8,11 +8,7 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-	  <PackageReference Include="System.Text.Encoding.CodePages" Version="10.0.8" />
-	</ItemGroup>
-
-	<ItemGroup>
-		<ProjectReference Include="..\..\Ans.Net10.Common-master\Ans.Net10.Common.csproj" />
+		<ProjectReference Include="..\Ans.Net10.Common-master\Ans.Net10.Common.csproj" />
 	</ItemGroup>
 
 </Project>
