@@ -1,0 +1,26 @@
+# Точка входа в приложение
+
+Здесь находится главный файл запуска консольного приложения. Проект настроен как исполняемый файл .NET.
+
+## Ссылки на репозиторий
+* [📄 Посмотреть исходный код Program.cs](Practice.ConsoleApp/Program.cs)
+* [⚙️ Файл проекта Practice.ConsoleApp.csproj](Practice.ConsoleApp/Practice.ConsoleApp.csproj)
+
+## Описание работы
+В этом файле сосредоточена основная логика инициализации приложения, вызов сервисов и взаимодействие с пользователем через консоль.
+
+### Пример базовой структуры
+```csharp
+using System;
+
+namespace Practice.ConsoleApp
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // .............
+        }
+    }
+}
+```
