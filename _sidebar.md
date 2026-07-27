@@ -1,4 +1,1 @@
 - [Главная](README.md)
-- **Консольное приложение**
-  - [Точка входа (Program.cs)](program.md)
-  - [Модели данных (Models)](models.md)
