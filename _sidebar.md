@@ -4,6 +4,6 @@
   - [Models](models.md)
 - **Библиотека Common**
   - [Crud README](Libs/Ans.Net10.Common-master/Crud/README.md)
-  - [Базовый репозиторий](Libs/Ans.Net10.Common-master/Сrud/__CrudRepository_Base.md)
+  - [Базовый репозиторий](Libs/Ans.Net10.Common-master/Сrud/_CrudRepository_Base.md)
   - [Репозиторий справочников](Libs/Ans.Net10.Common-master/Сrud/_CrudMasterRepository_Proto.md)
   - [Репозиторий подчинённых](Libs/Ans.Net10.Common-master/Сrud/_CrudSlaveRepository_Proto.md)
