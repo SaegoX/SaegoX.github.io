@@ -1,7 +1,9 @@
 - [Главная](README.md)
 - **Консольное приложение**
-  - [Точка входа (Program.cs)](program.md)
-  - [Модели данных (Models)](models.md)
-- **Библиотека Ans.Net10.Common**
+  - [Program.cs](program.md)
+  - [Models](models.md)
+- **Библиотека Common**
   - [Crud README](Libs/Ans.Net10.Common-master/Crud/README.md)
-  - [Базовый репозиторий](Libs/Ans.Net10.Common-master/Crud/_CrudRepository_Base.md)
+  - [Базовый репозиторий](common/crud/__CrudRepository_Base.md)
+  - [Репозиторий справочников](common/crud/_CrudMasterRepository_Proto.md)
+  - [Репозиторий подчинённых](common/crud/_CrudSlaveRepository_Proto.md)
