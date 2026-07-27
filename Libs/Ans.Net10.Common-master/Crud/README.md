@@ -14,8 +14,7 @@
                   /               \
                  /                 \
 CrudMasterRepository      CrudSlaveRepository
-         │                        │
-   IMasterEntity           ISlaveEntity
+
 ```
 
 ---
@@ -26,8 +25,6 @@ CrudMasterRepository      CrudSlaveRepository
 |-----------|------------|
 | `ICrudRepository<T>` | Общий контракт CRUD-репозитория |
 | `__CrudRepository_Base<T>` | Базовая реализация CRUD |
-| `IMasterEntity` | Интерфейс справочной сущности |
-| `ISlaveEntity` | Интерфейс дочерней сущности |
 | `_CrudMasterRepository_Proto<T>` | Репозиторий справочников |
 | `_CrudSlaveRepository_Proto<T>` | Репозиторий дочерних сущностей |
 
