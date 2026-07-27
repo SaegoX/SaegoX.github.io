@@ -4,4 +4,4 @@
   - [Модели данных (Models)](models.md)
 - **Библиотека Ans.Net10.Common**
   - [Crud README](Libs/Ans.Net10.Common-master/Crud/README.md)
-  - [Базовый репозиторий](common/crud/__CrudRepository_Base.md)
+  - [Базовый репозиторий](Libs/Ans.Net10.Common-master/Crud/_CrudRepository_Base.md)
