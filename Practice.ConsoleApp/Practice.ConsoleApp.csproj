@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
 		<OutputType>Exe</OutputType>
@@ -8,11 +8,8 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<ProjectReference Include="..\Ans.Net10.Common-master\Ans.Net10.Common.csproj" />
-	</ItemGroup>
-
-
-		<ProjectReference Include="../Libs/Ans.Net10.Common-master/Ans.Net10.Common.csproj" />
+		<!-- Используем прямые слэши, чтобы проект без проблем собирался и на Windows, и на Linux в GitHub Actions -->
+		<ProjectReference Include="../Ans.Net10.Common-master/Ans.Net10.Common.csproj" />
 	</ItemGroup>
 	
 </Project>
