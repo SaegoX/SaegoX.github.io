@@ -8,7 +8,6 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-<<<<<<< HEAD
 		<ProjectReference Include="..\Ans.Net10.Common-master\Ans.Net10.Common.csproj" />
 	</ItemGroup>
 
