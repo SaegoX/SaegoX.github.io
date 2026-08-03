@@ -1,7 +1,3 @@
 <Solution>
-<<<<<<< HEAD
-  <Project Path="Ans.Net10.Common-master/Ans.Net10.Common.csproj" />
-=======
->>>>>>> 9441e44b96fdc381e738f494ce754871ed133046
   <Project Path="Practice.ConsoleApp/Practice.ConsoleApp.csproj" />
 </Solution>
