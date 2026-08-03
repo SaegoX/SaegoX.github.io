@@ -8,7 +8,9 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<ProjectReference Include="../Ans.Net10.Common-master/Ans.Net10.Common.csproj" />
+	  <Reference Include="Ans.Net10.Common">
+	    <HintPath>..\..\Ans.Net10.Common\bin\Debug\net10.0\Ans.Net10.Common.dll</HintPath>
+	  </Reference>
 	</ItemGroup>
 	
 </Project>
