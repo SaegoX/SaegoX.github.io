@@ -8,13 +8,8 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-<<<<<<< HEAD
-		<ProjectReference Include="..\Ans.Net10.Common-master\Ans.Net10.Common.csproj" />
-	</ItemGroup>
 
-=======
-		<ProjectReference Include="../Libs/Ans.Net10.Common-master/Ans.Net10.Common.csproj" />
+		<ProjectReference Include="..\..\Ans.Net10.Common\Ans.Net10.Common.csproj" />
 	</ItemGroup>
 	
->>>>>>> 9441e44b96fdc381e738f494ce754871ed133046
 </Project>
